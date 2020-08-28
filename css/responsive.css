@@ -1,0 +1,154 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :991px. */
+@media (max-width: 991px) {
+  .marketing-details-reverse {
+      flex-direction: column-reverse;
+  }
+  .pricing-content h2 {
+	font-size: 35px;
+}
+
+.pricing-content p {
+	font-size: 20px;
+}
+
+  .pricing h2 {
+	font-size: 35px;
+}
+.pricing h3 {
+	font-size: 30px;
+	line-height: 30px;
+}
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+.video-title h1 {
+    font-family: myrida-bold;
+    font-size: 29px;
+}
+
+.regi-form h1 {
+    font-size: 24px;
+    text-align: center;
+    font-family: myrida-bold;
+    font-weight: 900;
+    color: #000 !important;
+}
+
+.apply-btn-box a {
+	font-size: 44px;
+	font-weight: 900;
+	font-family: agency;
+	text-align: center;
+	padding-top: 13px;
+	display: block;
+	color: #fff;
+}
+
+    .footer-section {
+        padding: 0px 0px;
+        background: #171617;
+    }
+
+    .footer-section ul li {
+        font-size: 23px;
+        background: #171617;
+        padding: 5px;
+        height: 31px;
+        width: 34px;
+    }
+
+    .footer-section p {
+        font-size: 11px;
+        font-family: myrida-bold;
+    }
+
+    .video-frame {
+        height: 240px;
+    }
+
+    .about-section p {
+        font-size: 21px;
+    }
+
+    .pricing-btn-box {
+        margin-left: initial;
+    }
+
+    .pricing-btn-box {
+        max-width: 160px;
+        margin: 10px 0px;
+    }
+
+    .pricing-btn-box a {
+        font-size: 22px;
+    }
+
+    .logo {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
+
+@media screen and (max-width:480px) {
+    .video-frame {
+        height: 100%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .apply-row {
+        margin-left: -5px !important;
+        margin-right: -5px !important;
+    }
+
+    .regi-form h1 {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:480px) {
+    .video-frame {
+        height: 249px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .grid-item a {
+        font-size: 20px;
+        color: #fff !important;
+        font-family: agency;
+    }
+}
